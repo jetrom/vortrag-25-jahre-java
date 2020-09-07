@@ -241,21 +241,10 @@ Features
 Features
 
 * Java Flight Recorder für die Nutzer vom OpenJDK
-* Deklaration Lambdaparameter mit neuen Schlüselwort var
+* Deklaration Lambda-Parameter mit neuen Schlüselwort var
 ** (x, y) -> x.process(y) nun auch
 ** (var x, var y) -> x.process(y)
-* HTTP-Client - Fluent API
-
-== Java SE 11 (LTS) September 2018
-* Ende Support März 2019
-
-Features
-
-* Java Flight Recorder für die Nutzer vom OpenJDK
-* Deklaration Lambdaparameter mit neuen Schlüselwort var
-** (x, y) -> x.process(y) nun auch
-** (var x, var y) -> x.process(y)
-* HTTP-Client (HTTP/2)
+* HTTP-Client (HHTP/2) - Fluent API
 
 == Java SE 12 März 2019
 * Ende Support September 2019 for OpenJDK
