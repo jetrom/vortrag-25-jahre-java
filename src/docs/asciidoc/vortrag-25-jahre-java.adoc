@@ -1,0 +1,299 @@
+//:source-highlighter: coderay
+:imagesdir: images
+:main_sourcepath: ../
+:revealjsdir: reveal.js
+:source-highlighter: highlightjs
+
+
+
+= 25 Jahre Java und Java 14 Features
+Jens Trommer <jt_developer@gmx.info>
+
+== Übersicht
+[%step]
+* 25 Jahre Java - Rückblick
+* Java 14 Features
+// numbering from here on
+//:sectnums:
+// :sectnumlevels: 4
+
+== 25 Jahre Java - Rückblick
+image::https://upload.wikimedia.org/wikipedia/commons/5/5d/Duke_%28Java_mascot%29_waving.svg[Java Mascot,size=contain, float="center"]
+[small]
+----
+https://commons.wikimedia.org/wiki/File:Duke_(Java_mascot)_waving.svg
+Copyright © Sun Microsystems Inc.
+----
+
+
+== initiale Veöffentlichung Java 1995 (JDK Beta)
+
+[%autofit]
+* Veröffentlichung Java 1.0a2 initiales Release am 23.05.1995
+* Sun Microsystems mit dem HotJavaBrowser nach 5 jähriger interner Enwicklungsarbeit
+
+[%notitle]
+=== Die Programmiersprache Java umfasste damals schon:
+
+Java umfasste damals schon:
+
+** JDK Entwicklungsumgebung zur Erstellung von Java-Anwendung
+** JVM Java Virtual Machine zur Ausführung von Java-Programmen
+
+
+== JDK 1.0 Januar 1996
+
+Entwicklungen neben der Sprache
+
+* EJB, Servlets, JSP für serverseitige Entwicklung 1996-1999
+
+== JDK 1.1 Februar 1997
+Features
+
+* GUI-Bibliothek Swing löst AWT ab
+
+== J2SE 1.2 Dezember 1998
+Codename: Playground
+
+* The release on December 8, 1998 and subsequent releases through J2SE 5.0 were rebranded retrospectively Java 2 and the version name "J2SE"
+
+Sonstiges
+
+=== JCP
+* JCP - Java Community Process installiert,
+** ordentlicher Rahmen zur Weiterentwicklung der Sprache gemeinsam mit anderen Unternehmen und Organisationen
+
+=== Apache
+* Apache wird führende Java-Technologie Plattform:
+** Tomcat, Struts, Coocon, Maven, Ant
+
+== J2SE 1.3 Mai 2000
+Codename Kestrel
+
+Features
+
+* 1999 HotSpot-Compiler bringt JIT ((Just-in-time))/ AOT (ahead-of-time) Compiling
+** größer Schwachpunkt war die Performance bzw. der Ressourcenhunger
+** Neuentwicklung des Runtime-Compilers und ist bis heute für die Java Performance zuständig
+
+Sonstiges
+
+=== Netbeans
+* 1999 Netbeans wird von Sun übernommen
+** Java IDE (Xelphie) seit 1996 in Prag entwickelt
+
+=== Java Editions
+* Java wird in drei Editionen ausgeliefert: J2SE, J2EE und J2ME
+
+== J2SE 1.4 Februar 2002
+Codename Merlin
+
+Features
+
+* assert keyword (specified in JSR 41)
+
+Sonstiges
+
+=== Eclipse
+* Eclipse 1.0 erscheint
+** IBM macht aus der "Visual Age Worksbench" die Open Source IDE Eclipse
+** Oberfläche proprietäres SWT (Standard Widget Toolkit)
+** Plug-in-Mechanismus für Tool-Erweiterungen
+
+== J2SE 5.0 September 2004
+Codename Tiger
+
+Features
+
+* Annotations @, Generics List<String>
+* Autoboxing/unboxing: automatic conversions primitive and wrapper classes
+* Enumerations: the enum keyword
+* Varargs in methods
+* Enhanced for each loop
+* Static imports
+
+Sonstiges
+
+=== Eclipse
+
+* Eclipse 3.0 nutzt die Modularisierungstechnologie OSGI
+** alle Features sind Plug-ins
+** Desktop-Anwendungen Eclipse RCP
+
+=== Spring
+* Spring Framework
+** als Alternative zu J2EE EJB Komponentenmodell
+
+=== Alternative JVM Sprachen
+
+im Zeitraum 2001-2004
+
+* Groovy
+* JRuby
+* Scala
+
+=== Java Persistence - verschiedene Ansätze
+* Bean-Persistence (container-managed, bean-managed)
+* Java Data Objects (JDO)
+* Hibernate
+
+* JPA 2005 als "Friedensvertrag"
+** Kompromissformal aus den Ansätzen: Java Persistence Architecture (JPA)
+
+== Java SE 6 Dezember 2006
+Codename Mustang
+[small]
+----
+"As of the version released on December 11, 2006,
+Sun replaced the name "J2SE" with Java SE and
+dropped the ".0" from the version number.
+Internal numbering for developers remains 1.6.0."
+----
+Features
+
+* Scripting Language Support, Bsp. JavaScript Rhino
+* Improved Web Service support through JAX-WS
+* Java Compiler API
+
+Sonstiges
+
+=== Sonstiges
+* 2007 JavaFX als neue Java-GUI-Technologie wird angekündigt
+
+* Android 2008 erscheint
+** basiert auf einer Java Runtime namens Dalvik
+** ohne Lizenz, später Patent-Steit zwischen Oracle und Google
+
+* 2010 Oracle kauft Sun Microsystems
+** große Verunsicherung in der Java-Community
+** Mitarbeiter verlassen das Unternehmen
+
+== Java SE 7 Juli 2011
+Codename Dolphin
+
+Features
+
+* JVM Support for dynamic languages
+* Strings in switch
+* Automatic resource management in try-statement
+* Improved type inference for generic instance creation, the diamond operator <>
+* Simplified varargs method declaration
+* Allowing underscores in numeric literals
+* Catching multiple exception types and rethrowing exceptions with improved type checking
+
+== Java SE 8 (LTS) März 2014
+Änderung beim Update Support durch Oracle
+
+* January 2019 for Oracle (commercial)
+* December 2020 for Oracle (personal use)
+* Alternative Support, z.B. für AdoptOpenJDK
+
+Features
+
+* neue Funktionale Erweiterungen Lambdas, Streams
+* neue Date/Time API
+
+Sonstiges
+
+=== Sonstiges
+* 2015 - 2016 Java-Modularisierung OSGi oder Jigsaw
+
+* 2016 Projekt MicroProfiles
+** Enterprise Java for Microservices als Gegengewicht zu Spring Boot
+
+* 2016 Kotlin 1.0 von Jetbrains
+** alternative JM-Sprache mit signifikanten Marktanteil, insbesondere Android
+
+== Java SE 9 September 2017
+* Ende Support March 2018 for OpenJDK
+
+Features
+
+* Unterstützung des Modulsystem Jigsaw durch die Sprache
+* Modularisierung JDK
+* JShell: The Java Shell (a Java REPL)
+* More concurrency updates, "Reactive Streams"
+
+Sonstiges
+
+=== Lizenz-Modell
+neue Lizenz-Modell durch Oracle
+
+* offizielle JVM soll nun Lizenz-Gebühren kosten
+* alternative Java Runtimes wie z.B. AdoptOpenJDK, Amazon
+
+=== Java EE wird zu Jakarta EE
+* 2017-2019 Java EE wird zu Jakarta EE
+** Open Source und bei der Eclipse Foundation
+
+== Java SE 10 March 2018
+* Ende Support	September 2018 for OpenJDK
+
+Features
+* Syntax Erweiterung: Local-Variable Type Inference
+** var list = new ArrayList<String>();  // infers ArrayList<String>
+** var stream = list.stream();          // infers Stream<String>
+
+== Java SE 11 (LTS) September 2018
+* LTS - Long Term Support
+
+Features
+* Java Flight Recorder für die Nutzer vom OpenJDK
+* Deklaration Lambdaparameter mit neuen Schlüselwort var
+** (x, y) -> x.process(y) nun auch
+** (var x, var y) -> x.process(y)
+* HTTP-Client - Fluent API
+
+== Java SE 11 (LTS) September 2018
+* Ende Support März 2019
+
+Features
+* Java Flight Recorder für die Nutzer vom OpenJDK
+* Deklaration Lambdaparameter mit neuen Schlüselwort var
+** (x, y) -> x.process(y) nun auch
+** (var x, var y) -> x.process(y)
+* HTTP-Client (HTTP/2)
+
+== Java SE 12 März 2019
+* Ende Support September 2019 for OpenJDK
+
+Features
+* Switch Expressions (Preview)
+
+== Java SE 13 September 2019
+* Ende Support March 2020 for OpenJDK
+
+Features
+* Switch Expressions (Preview)
+* Text Blocks (Preview)
+
+Sonstiges
+
+* ab 2019 - ? Java Umzug von Versionskonmtrollsystem Mercurial nach Git (Projekt: Skara)
+
+== Java SE 14 März 2020
+* Ende Support September 2020 for OpenJDK
+
+Features
+* Switch Expressions (Standard)
+* Pattern Matching for instanceof (Preview)
+* Text Blocks (Second Preview)
+* Records (Preview)
+
+== Ausblick
+Java SE 15 September 2020
+* Ende Support March 2021 for OpenJDK
+
+Java SE 16 März 2021
+* Ende Support September 2021 for OpenJDK
+
+Java SE 17 (LTS) September 2021
+
+== Demo Java 14 Features
+https://github.com/jetrom/examples-java14
+
+
+== Quellen
+* https://en.wikipedia.org/wiki/Java_version_history
+* https://kiosk.entwickler.de/java-magazin/java-magazin-8-2020/
+* https://kiosk.entwickler.de/java-magazin/java-magazin-5-2020-2/
