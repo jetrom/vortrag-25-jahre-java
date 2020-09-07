@@ -287,15 +287,16 @@ Features
 * Records (Preview)
 
 == Ausblick
-Java SE 15 September 2020
 
-* Ende Support March 2021 for OpenJDK
+Java Versionen
 
-Java SE 16 März 2021
+* Java SE 15 September 2020
+** Ende Support March 2021 for OpenJDK
 
-* Ende Support September 2021 for OpenJDK
+* Java SE 16 März 2021
+** Ende Support September 2021 for OpenJDK
 
-Java SE 17 (LTS) September 2021
+* Java SE 17 (LTS) September 2021
 
 == Demo Java 14 Features
 https://github.com/jetrom/examples-java14
