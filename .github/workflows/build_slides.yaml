@@ -1,4 +1,4 @@
-name: Java 14 Features Build
+name: Vortrag 25 Jahre Java - Build Slides
 
 on: 
   push:
@@ -23,5 +23,5 @@ jobs:
         with:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          BRANCH: gh-pages # The branch the action should deploy to.
-         FOLDER: ./target/generated-slides
+         FOLDER: target/generated-slides
 
