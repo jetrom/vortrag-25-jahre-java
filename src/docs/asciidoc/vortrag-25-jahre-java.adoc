@@ -230,6 +230,7 @@ neue Lizenz-Modell durch Oracle
 * Ende Support	September 2018 for OpenJDK
 
 Features
+
 * Syntax Erweiterung: Local-Variable Type Inference
 ** var list = new ArrayList<String>();  // infers ArrayList<String>
 ** var stream = list.stream();          // infers Stream<String>
@@ -238,6 +239,7 @@ Features
 * LTS - Long Term Support
 
 Features
+
 * Java Flight Recorder für die Nutzer vom OpenJDK
 * Deklaration Lambdaparameter mit neuen Schlüselwort var
 ** (x, y) -> x.process(y) nun auch
@@ -248,6 +250,7 @@ Features
 * Ende Support März 2019
 
 Features
+
 * Java Flight Recorder für die Nutzer vom OpenJDK
 * Deklaration Lambdaparameter mit neuen Schlüselwort var
 ** (x, y) -> x.process(y) nun auch
@@ -258,12 +261,14 @@ Features
 * Ende Support September 2019 for OpenJDK
 
 Features
+
 * Switch Expressions (Preview)
 
 == Java SE 13 September 2019
 * Ende Support March 2020 for OpenJDK
 
 Features
+
 * Switch Expressions (Preview)
 * Text Blocks (Preview)
 
@@ -275,6 +280,7 @@ Sonstiges
 * Ende Support September 2020 for OpenJDK
 
 Features
+
 * Switch Expressions (Standard)
 * Pattern Matching for instanceof (Preview)
 * Text Blocks (Second Preview)
@@ -282,9 +288,11 @@ Features
 
 == Ausblick
 Java SE 15 September 2020
+
 * Ende Support March 2021 for OpenJDK
 
 Java SE 16 März 2021
+
 * Ende Support September 2021 for OpenJDK
 
 Java SE 17 (LTS) September 2021
