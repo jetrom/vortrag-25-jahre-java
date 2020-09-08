@@ -57,9 +57,10 @@ Codename: Playground
 
 [small]
 ----
-"The release on December 8, 1998 and subsequent releases through J2SE 5.0 were rebranded retrospectively Java 2 and the version name J2SE"
-https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.2
+"The release on December 8, 1998 and subsequent releases through J2SE 5.0 
+were rebranded retrospectively Java 2 and the version name J2SE"
 ----
+https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.2
 
 Sonstiges
 
