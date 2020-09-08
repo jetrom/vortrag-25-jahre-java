@@ -180,7 +180,7 @@ Features
 
 * JVM Support for dynamic languages
 * Strings in switch
-* Automatic resource management in try-statement
+* Automatic resource management in try-statements
 * Improved type inference for generic instance creation, the diamond operator <>
 * Simplified varargs method declaration
 * Allowing underscores in numeric literals
@@ -249,7 +249,7 @@ Features
 * Deklaration Lambda-Parameter mit neuen Schlüselwort var
 ** (x, y) -> x.process(y) nun auch
 ** (var x, var y) -> x.process(y)
-* HTTP-Client (HHTP/2) - Fluent API
+* HTTP-Client (HTTP/2) - Fluent API
 
 == Java SE 12 März 2019
 * Ende Support September 2019 for OpenJDK
@@ -268,7 +268,7 @@ Features
 
 Sonstiges
 
-* ab 2019 - ? Java Umzug von Versionskonmtrollsystem Mercurial nach Git (Projekt: Skara)
+* ab 2019 - ? Java Umzug von Mercurial nach Git (Projekt: Skara)
 
 == Java SE 14 März 2020
 * Ende Support September 2020 for OpenJDK
