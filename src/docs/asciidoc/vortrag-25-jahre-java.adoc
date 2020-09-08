@@ -59,13 +59,15 @@ Codename: Playground
 ----
 "The release on December 8, 1998 and subsequent releases through J2SE 5.0 
 were rebranded retrospectively Java 2 and the version name J2SE"
-----
+
 https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.2
+----
+
 
 Sonstiges
 
 === JCP
-* JCP - Java Community Process installiert,
+* JCP - Java Community Process installiert
 ** ordentlicher Rahmen zur Weiterentwicklung der Sprache gemeinsam mit anderen Unternehmen und Organisationen
 
 === Apache
@@ -78,8 +80,8 @@ Codename Kestrel
 Features
 
 * 1999 HotSpot-Compiler bringt JIT (just-in-time)/ AOT (ahead-of-time) Compiling
-** größer Schwachpunkt war die Performance bzw. der Ressourcenhunger
-** Neuentwicklung des Runtime-Compilers und ist bis heute für die Java Performance zuständig
+** größter Schwachpunkt war die Performance bzw. der Ressourcenhunger
+** Neuentwicklung des Runtime-Compilers, ist bis heute für die Java Performance zuständig
 
 Sonstiges
 
@@ -156,7 +158,7 @@ Internal numbering for developers remains 1.6.0."
 ----
 Features
 
-* Scripting Language Support, Bsp. JavaScript Rhino
+* Scripting Language Support, Bsp. JavaScript (Rhino)
 * Improved Web Service support through JAX-WS
 * Java Compiler API
 
@@ -232,7 +234,7 @@ neue Lizenz-Modell durch Oracle
 ** Open Source und bei der Eclipse Foundation
 
 == Java SE 10 March 2018
-* Ende Support	September 2018 for OpenJDK
+* Ende Support September 2018 for OpenJDK
 
 Features
 
