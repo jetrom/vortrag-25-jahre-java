@@ -43,7 +43,7 @@ Java umfasste damals schon:
 
 == JDK 1.0 Januar 1996
 
-Entwicklungen neben der Sprache
+Sonstiges
 
 * EJB, Servlets, JSP für serverseitige Entwicklung 1996-1999
 
@@ -55,7 +55,11 @@ Features
 == J2SE 1.2 Dezember 1998
 Codename: Playground
 
-* The release on December 8, 1998 and subsequent releases through J2SE 5.0 were rebranded retrospectively Java 2 and the version name "J2SE"
+[small]
+----
+"The release on December 8, 1998 and subsequent releases through J2SE 5.0 were rebranded retrospectively Java 2 and the version name J2SE"
+https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.2
+----
 
 Sonstiges
 
@@ -72,7 +76,7 @@ Codename Kestrel
 
 Features
 
-* 1999 HotSpot-Compiler bringt JIT ((Just-in-time))/ AOT (ahead-of-time) Compiling
+* 1999 HotSpot-Compiler bringt JIT (just-in-time)/ AOT (ahead-of-time) Compiling
 ** größer Schwachpunkt war die Performance bzw. der Ressourcenhunger
 ** Neuentwicklung des Runtime-Compilers und ist bis heute für die Java Performance zuständig
 
