@@ -191,8 +191,8 @@ Features
 == Java SE 8 (LTS) März 2014
 Änderung beim Update Support durch Oracle
 
-* January 2019 for Oracle (commercial)
-* December 2020 for Oracle (personal use)
+* Januar 2019 für Oracle (commercial)
+* Dezember 2020 für Oracle (personal use)
 * Alternative Support, z.B. für AdoptOpenJDK
 
 Features
@@ -212,14 +212,14 @@ Sonstiges
 ** alternative JM-Sprache mit signifikanten Marktanteil, insbesondere Android
 
 == Java SE 9 September 2017
-* Ende Support March 2018 for OpenJDK
+* Ende Support März 2018 for OpenJDK
 
 Features
 
 * Unterstützung des Modulsystem Jigsaw durch die Sprache
 * Modularisierung JDK
 * JShell: The Java Shell (a Java REPL)
-* More concurrency updates, "Reactive Streams"
+* Mehrere Updates im Bereich "concurrency", "Reactive Streams"
 
 Sonstiges
 
@@ -233,7 +233,7 @@ neue Lizenz-Modell durch Oracle
 * 2017-2019 Java EE wird zu Jakarta EE
 ** Open Source und bei der Eclipse Foundation
 
-== Java SE 10 March 2018
+== Java SE 10 März 2018
 * Ende Support September 2018 for OpenJDK
 
 Features
@@ -261,7 +261,7 @@ Features
 * Switch Expressions (Preview)
 
 == Java SE 13 September 2019
-* Ende Support March 2020 for OpenJDK
+* Ende Support März 2020 for OpenJDK
 
 Features
 
@@ -287,7 +287,7 @@ Features
 Java Versionen
 
 * Java SE 15 September 2020
-** Ende Support March 2021 for OpenJDK
+** Ende Support März 2021 for OpenJDK
 
 * Java SE 16 März 2021
 ** Ende Support September 2021 for OpenJDK
@@ -295,6 +295,7 @@ Java Versionen
 * Java SE 17 (LTS) September 2021
 
 == Demo Java 14 Features
+
 https://github.com/jetrom/examples-java14
 
 
