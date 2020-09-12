@@ -221,6 +221,7 @@
                                 <require>asciidoctor-revealjs</require>
                             </requires>
                             <outputDirectory>${project.slides.directory}</outputDirectory>
+                            <outputFile>index.html</outputFile>
                             <backend>revealjs</backend>
                             <attributes>
                                 <!--
