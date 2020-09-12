@@ -1,3 +1,3 @@
-== Vortrag 25 Jahre Java und aktuelle Feature von Java 14
+== Vortrag 25 Jahre Java und aktuelle Features von Java 14
 * Rückblick auf 25 Jahre Java
 * Vorstellung einiger aktuellen Java 14 Features
