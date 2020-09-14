@@ -304,7 +304,7 @@ https://github.com/jetrom/examples-java14
 * https://kiosk.entwickler.de/java-magazin/java-magazin-8-2020/
 * https://kiosk.entwickler.de/java-magazin/java-magazin-5-2020-2/
 
-== LICENSE
+== Lizenz
 image::https://i.creativecommons.org/l/by-sa/4.0/88x31.png[Creative Commons Lizenzvertrag]
 Dieses Werk ist lizenziert unter einer http://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz]
 
